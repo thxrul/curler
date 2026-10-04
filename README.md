@@ -19,22 +19,13 @@
 
 ## Installation on Arch Linux
 
-### Method 1: Building from Source
+### Building from Source
 
 ```bash
 cd curler
 go build -o curler .
 sudo install -Dm755 curler /usr/bin/curler
 ```
-
-### Method 2: PKGBUILD / `makepkg`
-
-```bash
-cd curler
-makepkg -si
-```
-
----
 
 ## Usage
 
